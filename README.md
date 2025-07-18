@@ -1,2 +1,3 @@
-# fraud-detection
-Improved detection of fraud cases for e-commerce and bank transactions.
+# Fraud Detection Project (KAIM Week 8&9)
+
+Detecting fraud in e-commerce and bank transactions using ML.
