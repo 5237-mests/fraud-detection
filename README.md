@@ -1,4 +1,3 @@
-
 ## 🛡️ Fraud Detection – KAIM Week 8–9 Project
 
 ### 🔍 Overview
@@ -102,19 +101,31 @@ Used metrics suitable for **imbalanced classification**, including:
 
 ---
 
-### ✅ Tasks Completed
+### 🧠 Task 3 – Model Explainability with SHAP
 
-- ✅ Task 1: Data Cleaning, EDA, Merging IP, SMOTE, Encoding, Scaling
-- ✅ Task 2: Model Training (LogReg + RF), Evaluation, Metrics Reporting
+Used **SHAP (SHapley Additive exPlanations)** to interpret the Random Forest model.
+
+#### ✅ Global Interpretability (SHAP Summary Plot)
+
+- Computed SHAP values for a sample of training data.
+- Plotted summary showing top features driving fraud predictions:
+
+  - `purchase_value`
+  - `time_since_signup`
+  - `hour_of_day` and `day_of_week` features
+  - User/browser attributes
+
+#### 🔎 Local Interpretability (SHAP Force Plot)
+
+- Visualized how individual features influenced a specific prediction.
+- Helps in explaining **why a transaction was marked as fraud** — critical for audit/compliance.
 
 ---
 
-### 🚧 To Do (Upcoming Tasks)
+### ✅ Completed Tasks
 
-- 🔍 Feature selection and importance interpretation
-- 🔧 Hyperparameter tuning for best models
-- 📊 Visualization of model performance
-- 📤 Save final models and export pipelines
-- 📜 Final report and deployment-ready pipeline
+- ✅ Task 1: Data Cleaning, EDA, Feature Engineering
+- ✅ Task 2: Model Training, Evaluation, Export
+- ✅ Task 3: Model Explainability (SHAP)
 
 ---
